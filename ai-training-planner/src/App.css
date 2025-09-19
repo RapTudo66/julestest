@@ -101,3 +101,40 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 255, 153, 0.2);
 }
+
+.workout-plan {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.day-plan {
+  margin-bottom: 2rem;
+}
+
+.day-plan h3 {
+  font-size: 1.5rem;
+  color: #00ff99;
+}
+
+.exercise-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.exercise-card {
+  background-color: #242424;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-card h4 {
+  margin-top: 0;
+}
+
+.exercise-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}

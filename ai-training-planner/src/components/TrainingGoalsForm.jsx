@@ -1,12 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const TrainingGoalsForm = () => {
-  const [goals, setGoals] = useState({
-    primaryGoal: 'Muscle Gain',
-    secondaryGoals: [],
-    trainingFrequency: '3',
-  });
-
+const TrainingGoalsForm = ({ goals, setGoals }) => {
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setGoals({ ...goals, [name]: value });
